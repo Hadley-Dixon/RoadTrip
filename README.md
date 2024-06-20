@@ -1,13 +1,9 @@
-# Project Description
-This assignment tests your ability to use Graph and other data structures and the algorithms for handling real world file, web and user inputs.
-
 ## Background
-Béatrice Frison once took a bicycle from Grenoble to Kathmandu. (She talks about the trip briefly, in French, on YouTube.) Fortunately, she planned well and did not encounter too many problems. You will create an implementation of a shortest path trip between two countries for her or someone else who chooses another such trip.
+Béatrice Frison once took a bicycle from Grenoble to Kathmandu. (She talks about the trip briefly, in French, on YouTube.) Fortunately, she planned well and did not encounter too many problems. Create an implementation of a shortest path trip between two countries for her or someone else who chooses another such trip.
 
-## Requirements
-Requirement 1: Read and associate the data files.
+## Read and associate the data files.
 
-There are three data files. Each file contains data you will need, but — because of the sources — each file is in a different format and has different data. The sources for the files are below but appear for reference only. (There has been considerable work to cleanse the data in the files to make your task easier.) The files are as follows:
+There are three data files. Each file contains data you will need, but — because of the sources — each file is in a different format and has different data. The files are as follows:
 
 a. borders.txt: This file contains data about country borders from the CIA World Factbook, specifically the “Land boundaries” page — https://www.cia.gov/the-world-factbook/field/land- boundaries/. Each line in the file contains the name of a country, followed by a “=” character and zero, one or more countries and border lengths, with each country separated by a “;” caracter.
 - This corresponds to the CIA World Factbook entry shown in Figure 1, indicating that the country of Belize shares land borders with Guatemala and Mexico. The numbers associated with each country (266 for Guatemala) represent the length of the border between these countries.
@@ -22,7 +18,7 @@ c. state_name.tsv:ThisfilecontainsthefieldslistedinTable2.Thisallowsyoutoassocia
 - which together indicates that the country of Haiti came into existence twice — once in 1816 and again in 19341. Your implementation must take information corresponding to 2020-12-31, the most recent data contained in this file.
 <img width="596" alt="Screen Shot 2024-01-07 at 2 08 58 PM" src="https://github.com/Hadley-Dixon/Road-Trip/assets/104175462/ea17ae17-fdd4-4d41-a84c-d933fd2bcd4c">
 
-Requirement 2: Implement the required classes and functions.
+## Implement the required classes and functions.
 
 Your repository contains the skeleton of one source file, IRoadTrip.java, with a number of functions which only return default values. You may use additional classes and files if you choose, but you are required to complete the functions listed below. You may assume that the IRoadTrip class will be called through the main function as follows: java IRoadTrip borders.txt capdist.csv state_name.tsv
 <img width="629" alt="Screen Shot 2024-01-07 at 2 09 36 PM" src="https://github.com/Hadley-Dixon/Road-Trip/assets/104175462/fd7ca45c-8f9b-4440-aaf5-ea02aab4364a">
