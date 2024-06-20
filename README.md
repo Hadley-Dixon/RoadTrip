@@ -18,9 +18,9 @@ c. state_name.tsv:ThisfilecontainsthefieldslistedinTable2.Thisallowsyoutoassocia
 - which together indicates that the country of Haiti came into existence twice — once in 1816 and again in 19341. Your implementation must take information corresponding to 2020-12-31, the most recent data contained in this file.
 <img width="596" alt="Screen Shot 2024-01-07 at 2 08 58 PM" src="https://github.com/Hadley-Dixon/Road-Trip/assets/104175462/ea17ae17-fdd4-4d41-a84c-d933fd2bcd4c">
 
-## Implement the required classes and functions.
+## Implement classes and functions
 
-Your repository contains the skeleton of one source file, IRoadTrip.java, with a number of functions which only return default values. You may use additional classes and files if you choose, but you are required to complete the functions listed below. You may assume that the IRoadTrip class will be called through the main function as follows: java IRoadTrip borders.txt capdist.csv state_name.tsv
+Assume that the IRoadTrip class will be called through the main function as follows: java IRoadTrip borders.txt capdist.csv state_name.tsv
 <img width="629" alt="Screen Shot 2024-01-07 at 2 09 36 PM" src="https://github.com/Hadley-Dixon/Road-Trip/assets/104175462/fd7ca45c-8f9b-4440-aaf5-ea02aab4364a">
 - public IRoadTrip(String [] args): This function is the constructor for the IRoadTrip class. The args parameter contains the names of the files as provided to main — i.e. an array (in order): borders.txt capdist.csv state_name.tsv. The constructor must read the files and prepare to execute the implementation to respond to requests. The implementation must halt on any failure here.
 - public int getDistance (String country1, String country2): This function provides the shortest path distance between the capitals of the two countries passed as arguments. If either of the countries does not exist or if the countries do not share a land border, this function must return a value of -1. Examples are as found in Table 3.
